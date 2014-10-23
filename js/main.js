@@ -25,8 +25,7 @@ var Game = function() {
 
     // Check if currently highlighted square has already won, allow play anywhere
     if (currentBoardNode) {
-      console.log(currentBoardNode.children.children);
-      if (!currentBoardNode.children.children) currentBoard = undefined;
+      if (currentBoardNode.children[0].tagName === 'svg') currentBoard = undefined;
     }
 
     // Check target node is a playable node, not already full, and is avilable for play
