@@ -28,7 +28,6 @@ p {
 .wrapper {
   position: relative;
   display: inline-block;
-  /*float: left;*/
   width: 50%;
   margin: 1.813rem 0 0 25%;
 }
