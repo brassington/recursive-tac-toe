@@ -1,0 +1,121 @@
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.head {
+  text-align: center;
+}
+
+.grid-container {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+}
+
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+  /*float: left;*/
+  width: 50%;
+  margin: 1.813rem 0 0 25%;
+}
+
+.wrapper:after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.subwrapper {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
+.container {
+  position: absolute;
+  width: 33.3333333333%;
+  height: 33.3333333333%;
+}
+
+.container-1 {
+  top: 0;
+  left: 0;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+.container-2 {
+  top: 0;
+  left: 33.3318965517%;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+.container-3 {
+  top: 0;
+  left: 66.6675177123%;
+  border-right: 0.213rem solid rgba(0, 0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+.container-4 {
+  top: 33.3333333333%;
+  left: 0;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+.container-5 {
+  top: 33.3333333333%;
+  left: 33.3333333333%;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+
+.container-6 {
+  top: 33.3333333333%;
+  left: 66.6666666666%;
+  border-right: 0.213rem solid rgba(0, 0, 0, 0);
+  border-bottom: 0.213rem solid rgb(0, 0, 0);
+}
+
+.container-7 {
+  top: 66.6666666666%;
+  left: 0;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgba(0, 0, 0, 0);
+}
+
+.container-8 {
+  top: 66.6666666666%;
+  left: 33.3333333333%;
+  border-right: 0.213rem solid rgb(0, 0, 0);
+  border-bottom: 0.213rem solid rgba(0, 0, 0, 0);
+}
+
+.container-9 {
+  top: 66.6666666666%;
+  left: 66.6666666666%;
+  border-right: 0.213rem solid rgba(0, 0, 0, 0);
+  border-bottom: 0.213rem solid rgba(0, 0, 0, 0);
+}
+
+.current-board {
+  background-color: aliceblue;
+}
